@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.intro {
+    text-shadow: 1px 1px 5px pink;
+}
+
+.container {
+    float: left;
+    width: 60%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+aside {
+    float: right;
+    width: 40%;
+    height: 200px;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clearfix{
+    clear: both;
+}
+
+footer {
+    box-shadow: 1px 1px 50px #000000;
+}
+
+
+/* Extra stuff for demo */
+nav{
+    background-color: aquamarine;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section{ 
+    background-color: aqua;
+    height: 50%;
+}
+
+article{
+    background-color: aquamarine;
+    height: 50%;
+}
+
+footer{
+    background-color: azure;
+}
